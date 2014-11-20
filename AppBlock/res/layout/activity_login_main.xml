@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_9gird_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="请输入您的家长密码"
+        android:textColor="#FFFFFF"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tl_9grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10px"
+        android:orientation="horizontal"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="2"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="3"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="4"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="5"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="6"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="7"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="8"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/quit"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="退  出"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="1dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_9grid"
+                android:text="删  除"
+                android:textColor="#ffffff"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:layout_above="@id/tl_9grid"
+        android:layout_margin="10px"
+        android:background="@drawable/button_9grid"
+        android:singleLine="true"
+        android:textSize="30dip"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+</RelativeLayout>
